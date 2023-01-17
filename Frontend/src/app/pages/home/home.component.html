@@ -1,0 +1,102 @@
+<div class="row">
+    <div class="col-md-7">
+        <div class="p-2 d-flex justify-content-between feed-header">
+            <div class="p-0">
+                <h5>Home</h5>
+            </div>
+            <div class="p-0">
+                <a type="button"><i class="fa fa-rotate-right"></i></a>
+            </div>
+        </div>
+        <div class="feed-body">
+            <div class="create-post-area">
+                <div class="create-post-header d-flex flex-row">
+                    <div class="p-1">
+                        <img [width]="50" [height]="50" src="https://cdn-icons-png.flaticon.com/512/219/219983.png" alt="">
+                    </div>
+                    <div class="p-1 pt-3">
+                        <p class="hb-1">Renz Radovan</p>
+                    </div>
+                </div>
+                <div class="create-post-body">
+                    <!-- <div class="input-area" (focus)="postAreaFocus()" (focusout)="postAreaFocusOut()"  contenteditable="true">
+                                {{post}}
+                            </div> -->
+                    <textarea class="input-area " name="post" [(ngModel)]="post" placeholder="What's your thought?"></textarea>
+                </div>
+                <div class="create-post-bottom">
+                    <button class="post-btn">Post</button>
+                </div>
+            </div>
+            <div class="d-flex flex-column posts">
+                <div class="post-header d-flex flex-row">
+                    <div class="p-1">
+                        <img [width]="50" [height]="50" src="https://cdn-icons-png.flaticon.com/512/219/219983.png" alt="">
+                    </div>
+                    <div class="p-1">
+                        <div class="d-flex flex-row">
+                            <div class="p-0">
+                                <p class="hb-1">Keith Roxas</p>
+                            </div>
+                            <div class="ps-1">
+                                <p class="lt-1">@keith123</p>
+                            </div>
+                        </div>
+        
+                        <p class="post-content">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                            make a type specimen
+                            book.
+                        </p>
+                    </div>
+                </div>
+                <div class="post-body d-flex flex-column">
+                    <div class="p-0 image-content">
+                        <img class="image-post" src="https://img.kpopmap.com/960x0/2021/06/twice-taste-of-love-ver3-10.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <!-- <div class="post-bottom d-flex flex-row">
+                            <a class="buttons" type="button"><fa-icon [icon]="faHeart"></fa-icon></a>
+                        </div> -->
+            </div>
+            <div class="d-flex flex-column posts">
+                <div class="post-header d-flex flex-row">
+                    <div class="p-1">
+                        <img [width]="50" [height]="50" src="https://cdn-icons-png.flaticon.com/512/219/219983.png" alt="">
+                    </div>
+                    <div class="p-1">
+                        <div class="d-flex flex-row">
+                            <div class="p-0">
+                                <p class="hb-1">Renz Radovan</p>
+                            </div>
+                            <div class="ps-1">
+                                <p class="lt-1">@zner</p>
+                            </div>
+                        </div>
+        
+                        <p class="post-content">
+                            Check my art.
+                        </p>
+                    </div>
+                </div>
+                <div class="post-body d-flex flex-column">
+                    <div class="p-0">
+        
+                    </div>
+                    <div class="p-0 image-content">
+                        <img class="image-post"
+                            src="https://c4.wallpaperflare.com/wallpaper/1004/185/182/landscape-illustration-wallpaper-preview.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <!-- <div class="post-bottom">
+                            reactions
+                        </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5"></div>
+</div>

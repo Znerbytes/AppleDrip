@@ -1,0 +1,96 @@
+
+
+.feed-body {
+    height: 94vh;
+    overflow: auto;
+}
+
+.feed-body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
+.posts {
+    padding: 0.5rem;
+    border-top: 1px solid #D5D2D2;
+    border-bottom: 1px solid #D5D2D2;
+}
+
+.posts:hover {
+    background-color: #EEEFEF;
+}
+
+.create-post-header {
+    padding-left: 1rem;
+}
+
+.create-post-body {
+    padding-left: 6rem;
+    padding-right: 1rem;
+}
+
+.create-post-bottom {
+    padding: 1rem;
+    width: 100%;
+    text-align: right;
+}
+
+.input-area {
+    border: none;
+    width: 100%;
+    padding: 0.3rem;
+    max-height: 30vh;
+    overflow: hidden;
+}
+
+.input-area:focus {
+    outline: 0px solid transparent;
+}
+
+.input-area span {
+    color: #747272;
+    font-size: 25px;
+}
+
+/* [contenteditable] {
+    outline: 0px solid transparent;
+
+} */
+
+.post-btn {
+    padding: 0.3rem 0.9rem;
+    background-color: #31B2DF;
+    border: none;
+    border-radius: 30%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hb-1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lt-1 {
+    margin: 0;
+    color: #808383;
+    font-size: 18px;
+}
+
+.post-body {
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
+
+.image-post {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+.post-bottom {
+    padding-left: 4rem;
+}
